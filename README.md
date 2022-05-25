@@ -37,8 +37,8 @@ I created fluid layouts throughout the page with a mixture of Grid and Flexbox. 
 
 <br><br>
 
-## Github pages Server
-Used github pages to host the site
+## Hosted on render
+Render is a hosting platform for hosting applications
 
 
 ## To serve this Portfolio locally
