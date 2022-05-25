@@ -13,7 +13,7 @@ function Skills() {
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full">
             <div>
                 <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Tools</h2>
-                <p className='my-4'>// These are some technologies I'm familiar with.</p>
+                <p className='my-4'>{'//'} These are some technologies I'm familiar with.</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>

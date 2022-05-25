@@ -15,7 +15,7 @@ function Projects() {
             <div className='pb-8'>
            
             <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Projects</h2>
-                <p className='py-6'>// There are some projects I worked on.</p>
+                <p className='py-6'>{'//'} There are some projects I worked on.</p>
             </div>
                 
                 <div className="project-container grid grid-cols-1 sm:grid-cols-2">
@@ -50,7 +50,7 @@ function Projects() {
                             </li>
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://site2.pesapeer.com' className='project-details-link'>Demo</a>
+                        <a target='_blank' rel="noreferrer" href='https://site2.pesapeer.com' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function Projects() {
                             </li>
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://phpsandbox.io' className='project-details-link'>Demo</a>
+                        <a target='_blank' rel="noreferrer" href='https://phpsandbox.io' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ function Projects() {
                             </li>
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://ui.phpsandbox.io' className='project-details-link'>Demo</a>
+                        <a target='_blank' rel="noreferrer" href='https://ui.phpsandbox.io' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@ function Projects() {
                             </li>
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://www.folarinlawal.com' className='project-details-link'>Demo</a>
+                        <a target='_blank' rel="noreferrer" href='https://www.folarinlawal.com' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ function Projects() {
                         
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
+                        <a target='_blank' rel="noreferrer" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>
@@ -239,7 +239,37 @@ function Projects() {
                         
                         </ul> 
                         <div className="mt-6 project-details-link-wrapper">
-                        <a target='_blank' rel="nofollow" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
+                        <a target='_blank'  rel="noreferrer" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={MPM} alt="PHPSandbox UI" />
+                    </div>
+
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">Maintain Peace Movement, UK</h3>
+                        <p className="project-details-desc">
+                            Before I specialize in building UIs, I used to build wordpress sites. This site is NGO that support Peace in it's community.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                Wordpress
+                            </li>
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank'  rel="noreferrer" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
                         </div>
                         </div>
                     </div>

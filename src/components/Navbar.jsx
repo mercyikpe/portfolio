@@ -1,7 +1,7 @@
 // rafce
 
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaFacebook} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -10,8 +10,6 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
 	const [nav, setNav] = useState(false)
 	const handleClick = () => setNav(!nav)
-
-
 
   return (
     <div className='fixed w-full h-20 flex justify-between items-center px-8 bg-blue-950 text-gray-300'>

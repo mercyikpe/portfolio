@@ -6,7 +6,7 @@ function Contact() {
         <div className="px-8 flex flex-col justify-center w-full h-full max-w-[600px] mx-auto">
             <div className='pb-8'>
             <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Contact</h2>
-                <p className='py-6'>// Need to reach me? Send a mail using the form below, I promise to respond.</p>
+                <p className='py-6'>{'//'} Need to reach me? Send a mail using the form below, I promise to respond.</p>
             </div>
 
             <form method="POSt" action="https://getform.io/f/db9541ad-82d3-47a1-ae8a-2baaabacd490" className='flex flex-col'>
