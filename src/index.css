@@ -15,18 +15,36 @@
     .logo {
         font-family: 'Pacifico', cursive;
     }
-}
 
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
-
-.content-div:hover {
-    background-image: linear-gradient(
-        to right,
-         rgba(112, 157, 255, 0.8), 
-         hsla(242, 74%, 61%, 0.8)) !important;
+    /* project-lists */
+    .project-container {
+        @apply  w-full flex items-center mb-24;
+    }
+    .project-img {
+        @apply rounded-lg shadow-lg max-h-[650px] w-full;
+    }
+    .project-details-container {
+        @apply w-full h-full flex items-center;
+    } 
+    .project-details-wrapper { 
+        @apply mt-6 sm:mt-0 sm:pl-12 rounded-r-md;
+    }
+    .project-details-title { 
+        @apply text-2xl font-semibold;
+    }
+    .project-details-desc { 
+        @apply mt-4 text-lg leading-relaxed; 
+    } 
+    .project-details-tools { 
+        @apply font-bold mt-6; 
+    }
+    .project-details-tools-list { 
+        @apply list-disc list-outside; 
+    }
+    .project-details-tools-list li { 
+        @apply ml-4; 
+    }
+    .project-details-link {
+        @apply border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-2 my-8 mr-12;
+    }
 }

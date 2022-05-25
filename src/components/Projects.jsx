@@ -1,134 +1,251 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
+import Folarin from '../assets/folarin.png'
+import Kingsley from '../assets/kingsley.png'
+import Pesapeer from '../assets/pesapeer.png'
+import Dryva from '../assets/dryva.png'
+import MPM from '../assets/mpm.png'
+import PHPSandbox from '../assets/phpsandbox.png'
+import UIPHPSandbox from '../assets/ui-phpsandbox.png'
 
 function Projects() {
   return (
-    <div name='projects' className='md:h-screen w-full bg-blue-950 text-gray-300'>
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name='projects' className='pt-24 w-full bg-blue-950 text-gray-300'>
+        
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full">
             <div className='pb-8'>
-            <h2 className='text-4xl font-bold inline border-b-4 border-pink-600'>Projects</h2>
-                <p className='py-6'>// There are some projects I worked on</p>
+           
+            <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Projects</h2>
+                <p className='py-6'>// There are some projects I worked on.</p>
             </div>
+                
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={Pesapeer} alt="Pesapeer UI" />
+                    </div>
 
-            {/* Card Container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
-                {/* Grid-item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            VueJS | Tailwind CSS
-                        </span>
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">Landing page for currency exchange</h3>
+                        <p className="project-details-desc">
+                            I worked with a backend dev on this project. Using the endpoint he provided, 
+                            I fetch the avaialable curencies and the calculation of each currency conversion rate. I also implemented a fully responsive User Interface of the entire site.
+                        </p>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                            <li>
+                                Intercom
+                            </li>
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://site2.pesapeer.com' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={PHPSandbox} alt="PHPSandbox UI" />
+                    </div>
+
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">PHPSandbox: an Online IDE for building PHP applications</h3>
+                        <p className="project-details-desc">
+                        Worked with a group of other frontend and backend developers and implemented the frontend for PHPSandbox.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                            <li>
+                                TypeScript
+                            </li>
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://phpsandbox.io' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={UIPHPSandbox} alt="PHPSandbox UI" />
+                    </div>
+
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">A design system for PHPSandbox</h3>
+                        <p className="project-details-desc">
+                            Collaborated with a frontend developer and implemented a Design System which was used to build the main PHPSandbox platform.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                            <li>
+                                TypeScript
+                            </li>
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://ui.phpsandbox.io' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={Folarin} alt="PHPSandbox UI" />
+                    </div>
+
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">A Portfolio for a designer</h3>
+                        <p className="project-details-desc">
+                            Implemented a responsive porfolio site following the design on Figma.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://www.folarinlawal.com' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={Kingsley} alt="PHPSandbox UI" />
+                    </div>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">A Portfolio for a designer</h3>
+                        <p className="project-details-desc">
+                            Implemented a responsive porfolio site following the design on Figma.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                        
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div style={{backgroundImage: `url(${realEstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
 
-                        <div className='pt-8 text-center'>
-                            <a href="" className=''>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white hover:bg-gray-200 text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                
+                    <div className="project-img-wrapper">
+                        <img className='project-img' src={Dryva} alt="PHPSandbox UI" />
+                    </div>
+
+                    <div className="project-details-container">
+                        <div className="project-details-wrapper">
+                        
+                        <h3 className="project-details-title">A business website for a logistics company</h3>
+                        <p className="project-details-desc">
+                            Implemented a responsive business website that shows information about the Company, Services offer and how to contact the company.
+                        </p>
+
+                        <h6 className='project-details-tools'>Tools used</h6>
+                        
+                        <ul className='project-details-tools-list'>
+                            <li>
+                                VueJS
+                            </li>
+                            <li>
+                                TailwindCSS
+                            </li>
+                            <li>
+                                SCSS
+                            </li>
+                        
+                        </ul> 
+                        <div className="mt-6 project-details-link-wrapper">
+                        <a target='_blank' rel="nofollow" href='https://www.kingsleyomin.com' className='project-details-link'>Demo</a>
+                        </div>
                         </div>
                     </div>
+
                 </div>
 
-            </div>
         </div>
     </div>
   )

@@ -2,10 +2,10 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div name='contact' className='md:h-screen bg-blue-950 text-gray-300'>
-        <div className="p-4 flex flex-col justify-center w-full h-full max-w-[600px] mx-auto">
+    <div name='contact' className='md:h-screen pt-24 bg-blue-950 text-gray-300'>
+        <div className="px-8 flex flex-col justify-center w-full h-full max-w-[600px] mx-auto">
             <div className='pb-8'>
-            <h2 className='text-4xl font-bold inline border-b-4 border-pink-600'>Contact</h2>
+            <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Contact</h2>
                 <p className='py-6'>// Need to reach me? Send a mail using the form below, I promise to respond.</p>
             </div>
 
