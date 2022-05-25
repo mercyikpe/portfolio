@@ -35,6 +35,9 @@ A utility-first CSS framework packed with classes can be composed to build any d
 I created fluid layouts throughout the page with a mixture of Grid and Flexbox. The app is fully responsive on multiple screen widths.
 
 
+## Contact Form
+### getform.io
+I use their endpoint to collect messages sent from the contact form.
 <br><br>
 
 ## Hosted on render

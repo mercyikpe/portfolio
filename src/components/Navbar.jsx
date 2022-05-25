@@ -48,22 +48,22 @@ const Navbar = () => {
         <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
 			<ul>
 				<li className='w-[140px] h-12 flex justify-between items-center ml-[-80px] hover:ml-[5px] duration-300 bg-blue-600'>
-					<a href="/" className='flex justify-between items-center w-full text-gray-300'>
+					<a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mercyikpe" className='flex justify-between items-center w-full text-gray-300'>
 					LinkedIn <FaLinkedin size={30} />
 					</a>
 				</li>
 				<li className='w-[140px] h-12 flex justify-between items-center ml-[-80px] hover:ml-[5px] duration-300 bg-[#333333]'>
-					<a href="/" className='flex justify-between items-center w-full text-gray-300'>
+					<a target='_blank' rel="noreferrer" href="https://github.com/mercyikpe" className='flex justify-between items-center w-full text-gray-300'>
 					Github <FaGithub size={30} />
 					</a>
 				</li>
 				<li className='w-[140px] h-12 flex justify-between items-center ml-[-80px] hover:ml-[5px] duration-300 bg-[#6fc2b0]'>
-					<a href="/" className='flex justify-between items-center w-full text-gray-300'>
+					<a target='_blank' rel="noreferrer" href="mailto:ikpemercy1@gmail.com" className='flex justify-between items-center w-full text-gray-300'>
 					Email <HiOutlineMail size={30} />
 					</a>
 				</li>
 				<li className='w-[140px] h-12 flex justify-between items-center ml-[-80px] hover:ml-[5px] duration-300 bg-[#565f69]'>
-					<a href="/" className='flex justify-between items-center w-full text-gray-300'>
+					<a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1ZVVr9YLBzq5gdIaXdxLQmxAy4pushU_M/view?usp=sharing" className='flex justify-between items-center w-full text-gray-300'>
 					Resume <BsFillPersonLinesFill size={30} />
 					</a>
 				</li>
