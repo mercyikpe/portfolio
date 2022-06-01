@@ -20,17 +20,17 @@ const About = () => {
                     </div>
 
                     <div>
-                        <p>Mercy Ikpe is a Software engineer based in Uyo, Nigeria.</p>
+                        <p>I'm a Software developer based in Uyo, Nigeria.</p>
                         <br></br>
-                        <p>As a Software Engineer familiar with frontend technologies, I focus majorly on the frontend side of applications, with professional experience in JavaScript and it's frameworks  React JS and Vue JS.  I also enjoy building responsive, secure and accessible applications.</p>
+                        <p>As a Software Engineer familiar with frontend technologies, I have experience in building web applications using JavaScript and JS frameworks  (React JS and Vue JS).  I also enjoy building responsive, secure and accessible applications.</p>
                         <br></br>
-                        <p>She is the Co-founder of <a href="https://phpsandbox.io" target="_blank" rel="noreferrer" className='underline decoration-pink-600 decoration-double underline-offset-4'>PHPSandbox</a>, an Online development environment for building applications in PHP.</p>
+                        <p>I'm the Co-founder of <a href="https://phpsandbox.io" target="_blank" rel="noreferrer" className='underline decoration-pink-600 decoration-double underline-offset-4'>PHPSandbox</a>, an Online development environment for building applications in PHP.</p>
                         <br></br>
                         <p>
-                            Outside of Software Development, Mercy speaks regularly at technology conferences across Africa. She is an Ex-Google Student Developer Lead, Ex-organiser of NodeJS Akwa Ibom, and also a member of StartHub women, a community of young women using technology and entrepreneurship to champion the visibility of women in the society.
+                            Outside of Software Development, I speak regularly at technology conferences across Africa. I'm an Ex-Google Student Developer Lead, Ex-organiser of NodeJS Akwa Ibom, and also a member of StartHub women, a community of young women using technology and entrepreneurship to champion the visibility of women in the society.
                         </p>
                         <br></br>
-                        <p>Mercy has a Higher National Diploma in Computer Science from Heritage Polytechnic, Eket, Akwa Ibom State, Nigeria.</p>
+                        <p>I have a Higher National Diploma in Computer Science from Heritage Polytechnic, Eket, Akwa Ibom State, Nigeria.</p>
                         <br></br>
 
                         <h5 className='font-bold text-xl'>Interests:</h5>
