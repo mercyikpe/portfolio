@@ -29,8 +29,7 @@ function Projects() {
                         
                         <h3 className="project-details-title">Landing page for currency exchange</h3>
                         <p className="project-details-desc">
-                            I worked with a backend dev on this project. Using the endpoint he provided, 
-                            I fetch the avaialable curencies and the calculation of each currency conversion rate. I also implemented a fully responsive User Interface of the entire site.
+                        I collaborated with my teammates on this project. Using the provided endpoint, I fetch the available currencies and the exchange rate of all currencies. I also implemented a fully responsive User Interface for the entire site.
                         </p>
 
                         <h6 className='project-details-tools'>Tools used</h6>
@@ -210,7 +209,7 @@ function Projects() {
                 </div>
 
 
-                <div className="project-container grid grid-cols-1 sm:grid-cols-2">
+                <div className="project-container grid grid-cols-1 sm:grid-cols-2 hidden">
                 
                     <div className="project-img-wrapper">
                         <img className='project-img' src={Dryva} alt="PHPSandbox UI" />
@@ -258,7 +257,7 @@ function Projects() {
                         
                         <h3 className="project-details-title">Maintain Peace Movement, UK</h3>
                         <p className="project-details-desc">
-                            Before I specialize in building UIs, I used to build wordpress sites. This site is NGO that support Peace in it's community.
+                        A WordPress Site for an NGO, an organization that promotes peace in its community.
                         </p>
 
                         <h6 className='project-details-tools'>Tools used</h6>

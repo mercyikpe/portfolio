@@ -1,6 +1,5 @@
 import React from 'react'
 import HTML from '../assets/html.png'
-import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import GithHub from '../assets/github.png'
@@ -16,32 +15,77 @@ function Skills() {
                 <p className='my-4'>{'//'} These are some technologies I'm familiar with.</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                    <p>HTML</p>
+
+            <div className='flex flex-wrap'>
+                <h5 className='text-xl font-semibold my-6 mr-12'>HTML</h5>
+
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        <img className='w-10 mx-auto' src={HTML} alt="HTML icon" />
+                        <p>HTML</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        {/* <img className='w-10 mx-auto' src={HTML} alt="HTML icon" /> */}
+                        <p>Pug</p>
+                    </div>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
-                    <p>CSS</p>
+             </div>
+
+
+             <div className='flex flex-wrap'>
+                <h5 className='text-xl font-semibold my-6 mr-12'>CSS</h5>
+
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        <img className='w-10 mx-auto' src={Tailwind} alt="HTML icon" />
+                        <p>TailwindCSS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        {/* <img className='w-10 mx-auto' src={CSS} alt="HTML icon" /> */}
+                        <p>Bootstrap CSS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        {/* <img className='w-10 mx-auto' src={CSS} alt="HTML icon" /> */}
+                        <p>WindiCSS</p>
+                    </div>
                 </div>
+             </div>
+
+
+             <div className='flex flex-wrap'>
+                <h5 className='text-xl font-semibold my-6 mr-12'>JavaScript</h5>
+
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
-                    <p>React</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" />
+                    <img className='w-10 mx-auto' src={JavaScript} alt="JavaScript icon" />
                     <p>JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={GithHub} alt="Github icon" />
+                    <img className='w-10 mx-auto' src={ReactImg} alt="React icon" />
+                    <p>React JS</p>
+                </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                        {/* <img className='w-10 mx-auto' src={CSS} alt="HTML icon" /> */}
+                        <p>Vue JS</p>
+                    </div>
+                </div>
+             </div>
+
+
+             <div className='flex flex-wrap'>
+                <h5 className='text-xl font-semibold my-6 mr-12'>JavaScript</h5>
+
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-8 text-center py-8'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
+                    <img className='w-10 mx-auto' src={GithHub} alt="Github icon" />
                     <p>Github</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-sm py-4'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                    <p>Tailwind</p>
+                    {/* <img className='w-10 mx-auto' src={ReactImg} alt="React icon" /> */}
+                    <p>Bitbucket</p>
                 </div>
-            </div>
+                </div>
+             </div>
 
 
         </div>
