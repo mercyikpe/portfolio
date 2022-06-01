@@ -9,13 +9,13 @@ import UIPHPSandbox from '../assets/ui-phpsandbox.png'
 
 function Projects() {
   return (
-    <div name='projects' className='pt-24 w-full bg-blue-950 text-gray-300'>
+    <div name='projects' className='pt-24 md:pt-64 w-full bg-blue-950 text-gray-300'>
         
-        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full md:mt-40">
             <div className='pb-8'>
            
             <h2 className='text-3xl sm:text-4xl font-bold inline border-b-4 border-pink-600'>Projects</h2>
-                <p className='py-6'>{'//'} There are some projects I worked on.</p>
+                <p className='py-6'>{'//'} There are some projects I worked on that are public.</p>
             </div>
                 
                 <div className="project-container grid grid-cols-1 sm:grid-cols-2">
